@@ -1,0 +1,37 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "Jesus Lopez",
+    "url": "https://github.com/jlopez"
+  },
+  "metadata": {
+    "description": "Jesus Lopez's Claude Code mods, each hosted in its own repo.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "collapse-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jlopez/claude-mod-collapse-tools.git",
+        "path": ".claude/skills/collapse-tools"
+      },
+      "description": "Claude Fold: Collapses each tool call to one clickable line in a color you pick, showing the model's own description of the call where it has one.",
+      "version": "0.3.0",
+      "author": {
+        "name": "0xnicholasy",
+        "url": "https://github.com/0xnicholasy"
+      },
+      "homepage": "https://github.com/jlopez/claude-mod-collapse-tools",
+      "repository": "https://github.com/jlopez/claude-mod-collapse-tools",
+      "keywords": [
+        "tool-calls",
+        "transcript",
+        "collapse",
+        "compact"
+      ],
+      "category": "ui",
+      "license": "MIT"
+    }
+  ]
+}
