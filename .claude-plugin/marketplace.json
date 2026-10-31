@@ -17,7 +17,7 @@
         "path": ".claude/skills/collapse-tools"
       },
       "description": "Claude Fold: Collapses each tool call to one clickable line in a color you pick, showing the model's own description of the call where it has one.",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "0xnicholasy",
         "url": "https://github.com/0xnicholasy"
